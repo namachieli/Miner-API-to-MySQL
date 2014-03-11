@@ -1,9 +1,11 @@
 Miner-API-to-MySQL
 ==================
 
-Built using MySQL 5.1.49 or later and PHP 5.3.21 or later, CGMiner 3.7.2 and cgminer-kalrith 3.7.3.
+Built using MySQL 5.1.49 or later and PHP 5.3.21 or later, CGMiner 3.7.2 and cgminer-kalroth 3.7.3.
 
-This program will reach out to all miners using CGMiner API 1.32 and pull details about the miner.
+This program will reach out to all miners using CGMiner API 1.32 (cgminer, sgminer, bfgminer, cgminer-kalroth, cgminer-keccak, etc.) and pull details about the miner. 
+
+This was created for intended use with Tableau Software (tableausoftware.com) for analytical visualizations and information.
 
 Currently supported:
 
@@ -21,6 +23,9 @@ config
 version
 devdetails
 
+Future features to be added:
+
+Ability to limit rows created. App will truncate oldest X rows up to a maximum specified in config.php. This is to kepp Table sizes low if required.
 ___________________________________
 
 To Intall just put this on your webserver, open config.php and set values. Create a MySQL Database with the name you specify in config.php. All tables will be built the first time they are required, from xxx.sql. Make sure the user/pass you use has database admin rights. All files assume they exist within the same directory.
