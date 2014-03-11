@@ -3,7 +3,7 @@ Miner-API-to-MySQL
 
 Built using MySQL 5.1.49 or later and PHP 5.3.21 or later, CGMiner 3.7.2 and cgminer-kalroth 3.7.3.
 
-This program will reach out to all miners using CGMiner API 1.32 (cgminer, sgminer, bfgminer, cgminer-kalroth, cgminer-keccak, etc.) and pull details about the miner. 
+This program will reach out to all miners using CGMiner API 1.32 (cgminer, sgminer, bfgminer, cgminer-kalroth, cgminer-keccak, etc.) and pull details about the miner. There is not a front end to see the data, it is just meant to grab and push data. 
 
 This was created for intended use with Tableau Software (tableausoftware.com) for analytical visualizations and information.
 
