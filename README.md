@@ -10,8 +10,11 @@ This was created for intended use with Tableau Software (tableausoftware.com) fo
 Currently supported:
 
 Summary - Over all stats of the miner
+
 Pools - Detailed information about each pool configured on the miner
+
 Devs - Detailed information about each individual device (GPU, ASIC, etc)
+
 
 Future commands to be added:
 
