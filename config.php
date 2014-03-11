@@ -22,27 +22,27 @@
 
  //Miner1
  $miner[0]['hostname'] = 'Miner1';
- $miner[0]['ip'] = '172.20.20.11';
+ $miner[0]['ip'] = '192.168.1.11';
  $miner[0]['port'] = '4028';
 
  //Miner2
  $miner[1]['hostname'] = 'Miner2';
- $miner[1]['ip'] = '172.20.20.12';
+ $miner[1]['ip'] = '192.168.1.12';
  $miner[1]['port'] = '4028';
 
  //Miner3
  $miner[2]['hostname'] = 'Miner3';
- $miner[2]['ip'] = '172.20.20.13';
+ $miner[2]['ip'] = '192.168.1.13';
  $miner[2]['port'] = '4028';
 
  //Miner4
  $miner[3]['hostname'] = 'Miner4';
- $miner[3]['ip'] = '172.20.20.14';
+ $miner[3]['ip'] = '192.168.1.14';
  $miner[3]['port'] = '4028';
 
  //Miner5
  $miner[4]['hostname'] = 'Miner5';
- $miner[4]['ip'] = '172.20.20.15';
+ $miner[4]['ip'] = '192.168.1.15';
  $miner[4]['port'] = '4028';
  
  
@@ -56,8 +56,8 @@
  
  $myserver = 'localhost';
  $myuser = 'root';
- $mypass = 'Plokiju3304';
- $mydb = 'mining_data_test';
+ $mypass = 'pass';
+ $mydb = 'mining_data';
  // number of rows to keep before trimming old data. Use this to keep databases from growing to large.
  // not currently implemented,uncommenting has no effect
  // $mytablerows = '5000';
