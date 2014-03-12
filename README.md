@@ -29,6 +29,8 @@ devdetails
 Future features to be added:
 
 Ability to limit rows created. App will truncate oldest X rows up to a maximum specified in config.php. This is to kepp Table sizes low if required.
+
+Check to see if miner can be connected to. If miner is down but enable, whole thing breaks.
 ___________________________________
 
 To Intall just put this on your webserver, open config.php and set values. Create a MySQL Database with the name you specify in config.php. All tables will be built the first time they are required, from xxx.sql. Make sure the user/pass you use has database admin rights. All files assume they exist within the same directory.
